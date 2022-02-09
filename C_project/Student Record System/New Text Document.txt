@@ -1,0 +1,2 @@
+https://www.programming-techniques.com/2011/11/mini-project-student-record-system-in-c.html
+http://c.net-question.in/c-basic-programs/display-student-mark-sheets-using-structure
