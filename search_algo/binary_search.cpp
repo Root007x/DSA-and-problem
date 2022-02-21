@@ -5,13 +5,13 @@ using namespace std;
 int main()
 {
 	int arr[] = {2, 3, 5, 6, 7, 8, 10, 11, 15, 17}; // Sorted array
-	int key = 11;
+	int key = 15;
 	int min = 0;
 	int max = 9;
 	int mid;
 	bool flag = false;
 
-	while (min == max)
+	while (min <= max)
 	{
 
 		mid = (min + max) / 2;
@@ -20,7 +20,8 @@ int main()
 		{
 			flag = true;
 		}
-		else if (arr[mid] < key)
+
+		if (arr[mid] < key)
 		{
 			min = mid + 1;
 		}
